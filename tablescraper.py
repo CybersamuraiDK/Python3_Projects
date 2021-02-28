@@ -58,6 +58,6 @@ for j in table.find_all('tr')[1:]:
 
 df.to_excel('C:/scraping/scraped.xls')
 
-
+print(termcolor.colored('EXCEL EXPORTED TO FOLDER! ٩(^‿^)۶ ', 'green'))
 
     
