@@ -91,7 +91,5 @@ s.login(user = 'YOUREMAILHERE@gmail.com', password = 'PASSWORD HERE')
 s.sendmail(sender, receiver, msg.as_string())
 s.quit()
 
-
-print(termcolor.colored('EXCEL EXPORTED TO FOLDER! ٩(^‿^)۶ ', 'green'))
-print(termcolor.colored('AND EMAIL SENT! ٩(^‿^)۶ ', 'green'))
+print(termcolor.colored('EMAIL SENT! ٩(^‿^)۶ ', 'green'))
     
